@@ -1,0 +1,38 @@
+/* Listar_User.css */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+thead > tr>th{
+  background-color: #3f3f3d;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #f8fc04;
+}
+
+tbody>tr {
+  background-color: #faf5f5;
+}
+
+tbody> tr:hover {
+  background-color: #f8fc04; /* Trocar a cor do fundo quando o mouse der hover */
+}
+
+button {
+  background-color: #4CAF50; /* Fundo Verde do Botão */
+  color: white; /* Texto Branco */
+  border: none; /* Sem Bordas */
+  padding: 8px 12px; /* Padding */
+  cursor: pointer; /* Cursor ficar com estado de apontar */
+  transition: background-color 0.3s; /* Transição suave */
+}
+
+button:hover {
+  background-color: #45a049; /* Esverdiar no hover */
+}

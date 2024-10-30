@@ -59,7 +59,7 @@ function CadastroUser() {
 
     return (
         <div id="formulario">
-            <form onSubmit={VendinhaApi}>
+            <form className='forms' onSubmit={VendinhaApi}>
                 <h2>Cadastre-se</h2>
 
                 <label htmlFor="name">Nome</label>
@@ -69,9 +69,9 @@ function CadastroUser() {
                     id="name" 
                     value={formData.name} 
                     onChange={handleChange}
-                />
+                /><br></br>
 
-                <label htmlFor="email">Email</label>
+                <label htmlFor="email">Email</label><br></br>
                 <input 
                     type="email" 
                     name="email" 
@@ -80,7 +80,7 @@ function CadastroUser() {
                     onChange={handleChange}
                 />
 
-                <label htmlFor="cpf_cnpj">CPF / CNPJ</label>
+                <label htmlFor="cpf_cnpj"> <br/> CPF / CNPJ</label>
                 <input 
                     type="text" 
                     name="cpf_cnpj" 

@@ -1,0 +1,48 @@
+/* Update_User.css */
+
+table {
+  width: 100hv;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+
+body {
+  background-color: rgb(27, 31, 27);
+  
+}
+
+#container {
+  background-color: white;
+  display: flex;
+  height: 100hv;
+  justify-self: center;
+  margin: 0 auto
+}
+
+th, td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #f1f1f1; /* Trocar cor do fundo ao hover */
+}
+
+button {
+  background-color: #4CAF50; /* Fundo verde do botão */
+  color: white; /* Texto Branco */
+  border: none; /* Sem Bordas */
+  padding: 8px 12px; /* Padding */
+  cursor: pointer; /* Mudar estado do mouse para apontando */
+  transition: background-color 0.3s; /* Transição suave */
+}
+
+button:hover {
+  background-color: #45a049; /* Verde escuro ao dar  */
+}

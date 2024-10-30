@@ -1,29 +1,50 @@
-#formulario{
-    max-width: 450px;
-    margin: 0 auto;
+/* CadastroUser.css */
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
 }
 
-h2{
-    text-align: center;
+h3 {
+  text-align: center;
+  color: #333;
 }
 
-input[type=text], select{
-    width: 100%;
-    border-radius: 15px;
+.form-group {
+  margin-bottom: 15px;
 }
 
-input[type=email], select{
-    width: 100%;
-    border-radius: 15px;
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
 }
 
-input[type=password], select{
-    width: 100%;
-    border-radius: 15px;
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 7px;
+  border: 1px solid #cccccc57;
+  border-radius: 4px;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
 }
 
-input[type=button], select{
-    width: 100%;
-    border-radius: 15px;
-    margin: 3px;
+input[type="text"]:hover,
+input[type="email"]:hover,
+input[type="password"]:hover {
+  border-color: #fffb00; /* Trocar a cor no momento que o mouse der hover */
+  border-radius: 4px;
 }
+
+input[type="submit"] {
+  background-color: #fffb00; /* Fundo Amarelo do Submit */
+  color: white; /* Texto Branco */
+  border: none; /* Sem Bordas */
+  padding: 10px 15px; /* Padding */}
